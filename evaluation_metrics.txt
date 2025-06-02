@@ -1,0 +1,5 @@
+Métricas de Avaliação do Modelo (Conjunto de Teste):
+Mean Absolute Error (MAE): 4181.19
+Mean Squared Error (MSE): 33596915.85
+Root Mean Squared Error (RMSE): 5796.28
+R-squared (R²): 0.7836

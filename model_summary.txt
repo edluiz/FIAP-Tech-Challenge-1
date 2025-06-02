@@ -1,0 +1,33 @@
+Sumário do Modelo (statsmodels OLS - Treino):
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                charges   R-squared:                       0.742
+Model:                            OLS   Adj. R-squared:                  0.740
+Method:                 Least Squares   F-statistic:                     380.9
+Date:                Tue, 06 May 2025   Prob (F-statistic):          1.32e-305
+Time:                        00:20:29   Log-Likelihood:                -10845.
+No. Observations:                1070   AIC:                         2.171e+04
+Df Residuals:                    1061   BIC:                         2.175e+04
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const            -1.193e+04   1114.505    -10.705      0.000   -1.41e+04   -9744.335
+age                256.9757     13.477     19.067      0.000     230.530     283.421
+bmi                337.0926     32.471     10.381      0.000     273.378     400.807
+children           425.2788    154.655      2.750      0.006     121.814     728.743
+sex_male           -18.5917    376.175     -0.049      0.961    -756.722     719.539
+smoker_yes        2.365e+04    466.505     50.699      0.000    2.27e+04    2.46e+04
+region_northwest  -370.6773    536.873     -0.690      0.490   -1424.130     682.776
+region_southeast  -657.8643    539.791     -1.219      0.223   -1717.043     401.314
+region_southwest  -809.7994    535.208     -1.513      0.131   -1859.986     240.387
+==============================================================================
+Omnibus:                      252.330   Durbin-Watson:                   2.085
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              613.798
+Skew:                           1.253   Prob(JB):                    5.19e-134
+Kurtosis:                       5.737   Cond. No.                         310.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
