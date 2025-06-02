@@ -54,7 +54,7 @@ Com base na exploração, realizou-se o seguinte pré-processamento:
 1.  **Valores Ausentes:**  Confirmou-se que não havia valores ausentes, não sendo necessária imputação.
 2.  **Conversão de Variáveis Categóricas:**  As variáveis  `sex`,  `smoker`  e  `region`  foram convertidas em formato numérico utilizando One-Hot Encoding. A opção  `drop_first=True`  foi usada para evitar multicolinearidade, resultando nas seguintes novas colunas:  `sex_male`,  `smoker_yes`,  `region_northwest`,  `region_southeast`,  `region_southwest`. A categoria base para cada variável original (female, no, northeast) é representada quando todas as colunas correspondentes são 0.
 
-O dataset pré-processado foi guardado em `02_preprocessed_data.csv`.
+O dataset pré-processado esta no notebook.ipynb
 
 ## 5. Modelagem e Treinamento
 
@@ -116,11 +116,3 @@ O modelo apresenta um desempenho razoável, mas a análise dos resíduos e do gr
 -   Engenharia de Features: Criar novas variáveis (ex: interação entre  `bmi`  e  `smoker`).
 -   Transformação de Variáveis: Aplicar transformações (ex: logarítmica) na variável  `charges`  para lidar com a assimetria.
 -   Modelos Alternativos: Experimentar outros algoritmos de regressão (ex: Árvores de Decisão, Random Forest, Gradient Boosting) que podem capturar relações não-lineares de forma mais eficaz.
-
-## 10. Instruções para Entregáveis Adicionais
-
-Conforme solicitado no desafio:
-
-1.  **Código-Fonte:**  O código Python desenvolvido está organizado no arquivo   `load_explore_data.py`,  `visualize_preprocess.py`  e  `model_train_evaluate.py`.
-2.  **Repositório GitHub:**  O código, juntamente com este relatório, os gráficos e os resultados, deve ser carregado para um repositório no GitHub.
-3.  **Vídeo de Apresentação:**  Um vídeo (máximo 10 minutos) deve ser gravado e disponibilizado (ex: YouTube), apresentando o passo a passo do projeto, a fonte de dados, a criação do modelo e a análise dos resultados. O link do vídeo e do repositório GitHub devem ser enviados como parte da entrega final.
