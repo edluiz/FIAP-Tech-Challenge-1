@@ -39,7 +39,7 @@ A fase inicial envolveu o carregamento e a exploração do dataset para compreen
 
 _(Consulte `data_exploration_summary.txt` para detalhes)_
 
-**Visualizações:** Foram gerados diversos gráficos para visualizar as distribuições e relações entre as variáveis (encontram-se na pasta `plots`):
+**Visualizações:** Foram gerados diversos gráficos para visualizar as distribuições e relações entre as variáveis (encontram-se na pasta `plots` no github):
 
 -   **Histogramas (`numerical_histograms.png`):**  Mostraram a distribuição das variáveis numéricas.  `charges`  apresenta uma forte assimetria à direita (muitos custos baixos, poucos custos muito altos).
 -   **Countplots (`categorical_countplots.png`):**  Revelaram a distribuição das variáveis categóricas. Há um número ligeiramente maior de homens, uma maioria de não-fumadores e uma distribuição relativamente equilibrada entre as regiões.
