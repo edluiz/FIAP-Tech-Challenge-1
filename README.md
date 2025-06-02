@@ -75,7 +75,7 @@ O desempenho do modelo treinado foi avaliado no conjunto de teste (`X_test`, `y_
 -   **Root Mean Squared Error (RMSE):**  $5,796.28
 -   **R-squared (R²):**  0.7836
 
-_(Consulte `results/evaluation_metrics.txt` para detalhes)_
+_(Consulte `evaluation_metrics.txt` para detalhes)_
 
 **Interpretação:**
 
@@ -86,7 +86,7 @@ _(Consulte `results/evaluation_metrics.txt` para detalhes)_
 
 Para uma análise mais aprofundada da significância estatística das variáveis e dos intervalos de confiança, utilizou-se a biblioteca `statsmodels` para ajustar um modelo OLS (Ordinary Least Squares) no conjunto de treino.
 
-**Sumário do Modelo OLS (Statsmodels):** _(Consulte `results/model_summary.txt` para o sumário completo)_
+**Sumário do Modelo OLS (Statsmodels):** _(Consulte `model_summary.txt` para o sumário completo)_
 
 **Principais Insights:**
 
