@@ -121,6 +121,6 @@ O modelo apresenta um desempenho razoável, mas a análise dos resíduos e do gr
 
 Conforme solicitado no desafio:
 
-1.  **Código-Fonte:**  O código Python desenvolvido está organizado nos ficheiros  `01_load_explore_data.py`,  `02_visualize_preprocess.py`  e  `03_model_train_evaluate.py`.
+1.  **Código-Fonte:**  O código Python desenvolvido está organizado no arquivo   `load_explore_data.py`,  `visualize_preprocess.py`  e  `model_train_evaluate.py`.
 2.  **Repositório GitHub:**  O código, juntamente com este relatório, os gráficos e os resultados, deve ser carregado para um repositório no GitHub.
 3.  **Vídeo de Apresentação:**  Um vídeo (máximo 10 minutos) deve ser gravado e disponibilizado (ex: YouTube), apresentando o passo a passo do projeto, a fonte de dados, a criação do modelo e a análise dos resultados. O link do vídeo e do repositório GitHub devem ser enviados como parte da entrega final.
